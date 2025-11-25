@@ -1,4 +1,4 @@
-#🖍️ C Implementation of a Custom Graphics Sketch File Converter
+# 🖍️ C Implementation of a Custom Graphics Sketch File Converter
 
 ## Overview
 
