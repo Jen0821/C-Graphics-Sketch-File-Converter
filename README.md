@@ -1,4 +1,4 @@
-# 🖍️ C Implementation of a Custom Graphics Sketch File Converter
+# C Implementation of a Custom Graphics Sketch File Converter
 
 ## Overview
 
@@ -12,10 +12,10 @@ The core challenge involves correctly parsing and manipulating various data bloc
 
 The program implements handlers for the following graphic and control data blocks:
 
-* `COLOUR`: Handles color definitions and changes.
+* `COLOUR`: Handles colour definitions and changes.
 * `TARGETX`, `TARGETY`: Manages coordinate data for drawing operations.
 * `DXY`: Data related to dynamic movement or relative coordinate changes.
-* **`FLOCK`**: A complex, proprietary data block that requires specialized parsing logic.
+* **`FLOCK`**: A complex, proprietary data block that requires specialised parsing logic.
 
 ### File Format Handling
 
@@ -26,12 +26,12 @@ The program implements handlers for the following graphic and control data block
 
 The project uses the standard C development environment and compilation process.
 
-### 🛠 Development Environment
+### Development Environment
 
 * GCC compiler (or Clang)
 * External libraries for environment setup (used via `pkg-config`).
 
-### 🚀 Compilation Example
+### Compilation Example
 
 The original coursework specified using robust compilation flags for safety and testing:
 
